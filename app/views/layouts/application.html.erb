@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>FullfiiRails</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= display_meta_tags(default_meta_tags)%>
+
   </head>
 
   <body>
