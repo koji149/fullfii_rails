@@ -314,7 +314,7 @@ ul li {
 	Banner
 -------------------------------------------------------------------------------*/
 .banner {
-	background-color: #3b3be8;
+	background-color:#FEEEED;
 	min-height: 750px;
 }
 .banner-text {
@@ -323,7 +323,7 @@ ul li {
 
 }
 .banner-text h1 {
-	color: #fff;
+	color: #000;
 	font-family: "Roboto", sans-serif;
 	font-weight: 100;
 	line-height: 48px;
@@ -333,7 +333,7 @@ ul li {
 	font-weight: 300;
 }
 .banner-text p {
-	color: #fff;
+	color: #000;
 	font-size: 16px;
 	font-weight: 300;
 	line-height: 24px;
@@ -373,7 +373,7 @@ ul li {
 	Feature 1
 -------------------------------------------------------------------------------*/
 .features1 {
-	background-color:#f2f2f2;
+	background-color:#fff;
 }
 .left {
 	text-align:right;
@@ -449,7 +449,7 @@ ul li {
 -------------------------------------------------------------------------------*/
 
 	.overlay {
-	background-color: rgba(60, 57, 162, 0.9);
+	background-color: #FEEEED;
 	height: 100%;
 	left: 0;
 	position: absolute;
@@ -471,7 +471,7 @@ ul li {
 }
 .subscribe h2 {
 	margin-top: 0;
-	color: #fff;
+	color: #000;
 	letter-spacing:2px;
 }
 .subscribe span {
@@ -481,12 +481,12 @@ ul li {
 	margin-bottom: 30px;
 	font-size:24px;
 	font-weight:100;
-	color: #fff;
+	color: #000;
 	letter-spacing:1px;
 }
 .subscribe p {
 	margin:5% 10% 7% 10%;
-	color: #fff;
+	color: #000;
 	font-size:14px;
 	line-height:21px;
 	font-weight: 300;

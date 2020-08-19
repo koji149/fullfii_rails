@@ -32,7 +32,7 @@
   <!-- banner text section-->
   <div id="banner" class="container">
     <div class="col-md-6 col-sm-12">
-      <div class="banner-text">
+      <div class="banner-text ">
         <h1>知らない相手だからこそ、気楽に悩みを話せる</h1>
         <p>聞き上手の方と、相談したい方を繋ぐ相談アプリ</p>
         <div class="banner-btn"><a href="#"><%= image_tag 'apple-store-btn.png' %></a> <a href="#"><%= image_tag 'google-store-btn.png' %></a> </div>
@@ -58,6 +58,7 @@
     </div>
   </div>
 </section>
+
 <!-- overview section --> 
 <!-- feature section 1 -->
 <section id="features" class="section features2">
@@ -94,26 +95,27 @@
   <div class="container">
     <div class="row">
       <div class="col-md-8 col-md-offset-2 text-center">
-        <h2 class="section-title">使い方</h2>
-        <p class="section-intro">相談者は好みの聞き手を選んで、チャットor電話で相談し、500円/30分を支払います。聞き手は対価として手数料を差し引いた分を受け取ります</br>※基本一分間17円です。資格保有や聞く回数がアプリ内で多い方は一分間の単価が上がる仕組みです※</p>
+        <h2 class="section-title">使い方 相談者側</h2>
+        <p class="section-intro">好みの聞き手を選んで、チャットor電話で相談し、500円/30分を支払います。
+        </br>※基本最低一分間17円（電話とチャット共通）です。資格保有や聞く回数がアプリ内で多い方は一分間の単価が上がります※</p>
       </div>
     </div>
     <div class="row features1-content-space">
       <div class="col-md-4 col-sm-12">
-        <div class="features1-content middle"> 
-          <h4>➀</br>相談者:悩みを話したい方を選びます</br>聞き手:事前に登録します</h4>
+        <div class="features1-content middle text-center"> 
+          <h4>➀</br>悩みを話したい方を選びます</h4>
           <%= image_tag '聞き上手一覧.png', class: "img-responsive"%>
         </div>
       </div>
       <div class="col-md-4 col-sm-12 "> 
-        <div class="features1-content middle">
+        <div class="features1-content middle text-center">
           <h4>➁</br>相談者と聞き手はチャットor電話で悩みを話します</h4>
           <%= image_tag '相談画面.png', class: "img-responsive"%>
         </div>
       </div>
       <div class="col-md-4 col-sm-12">
-        <div class="features1-content middle">
-          <h4>➂</br>相談者:分数×単価＋ポジティブな気分で満たされた分、アプリ内ポイントを聞き手に送ります</br>聞き手:お礼としてアプリ内ポイントを得ることができます</h4>
+        <div class="features1-content middle text-center">
+          <h4>➂</br>分数×単価＋ポジティブな気分で満たされた分、アプリ内ポイントを聞き手に送ります</br></h4>
           <%= image_tag '相談終了画面.png', class: "img-responsive"%>
           ※アプリ内ポイントは課金で入手し、実際に換金できます
         </div>
@@ -122,7 +124,67 @@
   </div>
 </section>
 <!-- feature section 1 --> 
-
+<section id="features" class="section features2">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2 text-center">
+        <h2 class="section-title">使い方 聞き手側</h2>
+        <p class="section-intro">アプリに登録し、相談者から指名されたのち、相談が始まります。</br>※基本最低一分間17円（電話とチャット共通）です。資格保有や聞く回数がアプリ内で多い方は一分間の単価が上がります※</p>
+      </div>
+    </div>
+    <div class="row features1-content-space">
+      <div class="col-md-4 col-sm-12">
+        <div class="features1-content middle text-center"> 
+          <h4>➀</br>事前に写真や聞き方などを聞き手として登録します</h4>
+          <%= image_tag 'マイページ.png', class: "img-responsive"%>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-12 "> 
+        <div class="features1-content middle text-center">
+          <h4>➁</br>相談者から指名後、聞き手は相談者の悩みをチャットor電話で聞きます</h4>
+          <%= image_tag '相談画面.png', class: "img-responsive"%>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <div class="features1-content middle text-center">
+          <h4>➂</br>聞き手:お礼としてアプリ内ポイント（手数料除く）を得ることができます</h4>
+          <%= image_tag '相談終了画面.png', class: "img-responsive"%>
+          ※アプリ内ポイントは課金で入手し、実際に換金できます
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="features" class="section features1">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2 text-center">
+        <h2 class="section-title">聞き手の登録基準</h2>
+        <p class="section-intro">以下にどれか1つに当てはまる方</p>
+      </div>
+    </div>
+        <div class="row features1-content-space">
+      <div class="col-md-4 col-sm-12">
+        <div class="features1-content middle"> 
+          <%= image_tag '9.png', class: "img-responsive"%>
+                    <h4 class="text-center">自分が聞き上手であると自信をもって答えられる方</h4>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-12 "> 
+        <div class="features1-content middle">
+          <%= image_tag '7.png', class: "img-responsive"%>
+                    <h4 class="text-center">悩みを聞くことに専門性が高い方（資格保有や心理学専攻等）</h4>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <div class="features1-content middle">
+          <%= image_tag '8.png', class: "img-responsive"%>
+                    <h4 class="text-center">電話占い師やカウンセラーといった仕事を経験している方</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 <!-- feature section 2 -->
 <section id="features" class="section features2">
   <div class="container">
@@ -179,7 +241,7 @@
 <!-- feature section 2 --> 
 
 <!-- feature section 3 -->
-<section id="features" class="section features3">
+<section id="features" class="section features1">
   <div class="container">
     <div class="row">
       <div class="col-md-8 col-md-offset-2 text-center">
