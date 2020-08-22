@@ -2,7 +2,7 @@ module ApplicationHelper
   def default_meta_tags
     {
       site: 'Fullfii',
-      title: 'トップページ',
+      title: '知らない相手だからこそ、気楽に悩みを話せる',
       reverse: true,
       charset: 'utf-8',
       description: '悩みを今すぐ話してスッキリしたい方、聞き上手で人の話を聞くことが好きな方、相談したい人と聞き上手を結ぶ相談アプリ',
