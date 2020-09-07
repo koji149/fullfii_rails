@@ -20,7 +20,7 @@ $(document).ready(function() {
       });
 
 	// Fancybox
-	$('.work-box').fancybox();
+	//$('.work-box').fancybox();
 
 	// Page Scroll
 	var sections = $('section')
