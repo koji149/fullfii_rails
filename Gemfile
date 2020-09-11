@@ -68,3 +68,4 @@ gem 'rails_12factor', group: :production
 gem 'sitemap_generator'
 gem 'aws-sdk'
 gem 'dotenv-rails'
+gem 'heroku-deflater'
