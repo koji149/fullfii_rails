@@ -19,13 +19,13 @@ module ApplicationHelper
         description: :description,
         type: 'website',
         url: request.original_url,
-        image: image_url('284_284.png'),
+        image: image_url('twitter_ogp.png'),
         local: 'ja-JP',
       },
       twitter: {
         card: 'summary',
         site: '@fullfiiOfficial',
-        image: image_url('284_284.png'),
+        image: image_url('twitter_ogp.png'),
         width: 100,
         height: 100
       }
